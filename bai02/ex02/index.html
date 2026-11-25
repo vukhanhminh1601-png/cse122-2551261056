@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hành trình Trung Hoa</title>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        :root {
+            --color-yellow1: #C9A227;
+            --color-yellow2: #A8861B;
+            --color-white: #FFFFFF;
+            --color-gray: #E0E0E0;
+        }
+        body{
+            font-family: "Times New Roman", Times, serif;
+            justify-content: center;
+            display: flex;
+            background-color: var(--color-gray);
+            padding: 30px 15px;
+        }
+        .khung {
+            article class="banner";
+            background: linear-gradient(160deg, var(--color-yellow1), var(--color-yellow2));
+            box-shadow: 0px 0px 10px 0px var(--color-yellow2);
+            border: 1px solid var(--color-yellow2);
+            max-width: 820px;
+            padding: 28px 36px;
+            color: var(--color-white);
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 26px;
+            text-align: center;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            color: var(--color-white);
+        }
+        img.anh-noi {
+            width: 260px;
+            border: 3px solid rgba(255, 255, 255, 0.85);
+            float: right;
+            margin: 0 0 14px 18px;
+            border-radius: 4px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 14px;
+            margin-top: 0px;
+        }
+        @media (max-width: 600px) {
+            article.banner {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            img.anh-noi {
+                float: none;
+                display: block;
+                width: 100%;
+                max-width: 320px;
+                margin: 0 auto 16px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="khung">
+        <h1>“Bất đáo Trường Thành phi hảo hán”…</h1>
+        <img class="anh-noi" src="Greatwall.png" alt="Ảnh nổi bật">
+        <p>Công ty du lịch Hoàn Mỹ giới thiệu hành trình khám phá Trung Hoa: chinh phục Vạn Lý Trường Thành, ghé Thập Tam Lăng, tham quan Cung Điện Mùa Hè – nơi Từ Hy Thái Hậu cho “đào hồ, đắp núi, xây chùa”.</p>
+        <p>Du khách còn được dạo quảng trường Thiên An Môn, chiêm ngưỡng Cố Cung, thưởng thức vịt quay Bắc Kinh. Tiếp đó là Thượng Hải với vườn Dự Viên và khu lầu Vạn Quốc bên bến sông Hoàng Phố.</p>
+        <p>Hành trình khép lại ở Hàng Châu – nơi có sự tích “cầu gãy mà không gãy” gắn với chuyện Lương Sơn Bá – Chúc Anh Đài, cùng thiên đường mua sắm ngọc trai quý hiếm.</p>
+    </article>
+    
+</body>
+</html>
