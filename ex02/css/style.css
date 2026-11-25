@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hành trình Trung Hoa</title>
-    
-    <style>
-        * {
+* {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
@@ -71,16 +63,3 @@
                 margin: 0 auto 16px auto;
             }
         }
-    </style>
-</head>
-<body>
-    <article class="khung">
-        <h1>“Bất đáo Trường Thành phi hảo hán”…</h1>
-        <img class="anh-noi" src="Greatwall.png" alt="Ảnh nổi bật">
-        <p>Công ty du lịch Hoàn Mỹ giới thiệu hành trình khám phá Trung Hoa: chinh phục Vạn Lý Trường Thành, ghé Thập Tam Lăng, tham quan Cung Điện Mùa Hè – nơi Từ Hy Thái Hậu cho “đào hồ, đắp núi, xây chùa”.</p>
-        <p>Du khách còn được dạo quảng trường Thiên An Môn, chiêm ngưỡng Cố Cung, thưởng thức vịt quay Bắc Kinh. Tiếp đó là Thượng Hải với vườn Dự Viên và khu lầu Vạn Quốc bên bến sông Hoàng Phố.</p>
-        <p>Hành trình khép lại ở Hàng Châu – nơi có sự tích “cầu gãy mà không gãy” gắn với chuyện Lương Sơn Bá – Chúc Anh Đài, cùng thiên đường mua sắm ngọc trai quý hiếm.</p>
-    </article>
-    
-</body>
-</html>
